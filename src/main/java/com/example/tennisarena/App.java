@@ -19,7 +19,7 @@ public class App extends Application {
         VBox root = fxmlLoader.load(); // Cargar el VBox del FXML
 
         // Configurar el fondo con una imagen
-        String imagePath = "/com/example/tennisarena/images/FotoInicio.png"; // Ruta de la imagen en tu carpeta resources
+        String imagePath = "/com/example/tennisarena/images/FotoInicio.png"; //Ruta de la imagen en tu carpeta resources
         Image fondoImage = new Image(getClass().getResourceAsStream(imagePath)); // Cargar la imagen
         BackgroundImage backgroundImage = new BackgroundImage(fondoImage,
                 javafx.scene.layout.BackgroundRepeat.NO_REPEAT,
